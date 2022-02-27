@@ -38,4 +38,8 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-module.exports = app;
+// module.exports = app;
+
+app.listen(8000, () => {
+   console.log('8000 端口启动成功');
+})
